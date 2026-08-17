@@ -1,0 +1,5 @@
+binds {
+    Super+Delete hotkey-overlay-title="Lock Screen" { spawn "dms" "ipc" "call" "lock" "lock"; }
+    Super+Shift+Return hotkey-overlay-title="App Launcher: Toggle" { spawn "dms" "ipc" "call" "spotlight" "toggle"; }
+    Super+E hotkey-overlay-title="Open Files" { spawn "nautilus"; }
+}
